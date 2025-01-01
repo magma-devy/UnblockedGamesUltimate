@@ -1,14 +1,35 @@
+::-webkit-scrollbar {
+    width: 0.3rem;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(55, 55, 55);
+    border-radius: 0.15rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(45, 45, 45);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: rgb(65, 65, 65);
+}
+
 body {
     margin: 0;
     padding: 0;
-    background-image: url('../images/uguBackgroundImage.png');
-    background-size:cover;
-    background-repeat: no-repeat;
+    background-color: rgb(25, 25, 25);
+    overflow-x: hidden;
 }
 
 .topbar {
     width: 100vw;
     height: 120px;
+    position: sticky;
 }
 
 .topbar-background {
